@@ -9,7 +9,7 @@
       <p>
         <strong>Processing Geometric Models of Assemblies to Structure and Enrich them with Functional Information.</strong>
         <br/>
-        At Grand Amphitheater of INRIA Rhone-Alpes in Montbonnot. For more details, see <a href="/phd-defense">here</a>. Presentation is available <a href="phd/defense/">here</a>.
+        At Grand Amphitheater of INRIA Rhone-Alpes in Montbonnot. For more details, see <a href="/phd-defense">here</a>. Presentation is available <a href="/phd-presentation">here</a>.
       </p>
     </div>
     <div class="entry">

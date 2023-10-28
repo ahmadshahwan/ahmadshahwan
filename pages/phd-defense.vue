@@ -51,7 +51,7 @@
           model that provides a start point to the proposed method.</i>
       </p>
       <p>
-        Presentation is available <a href="phd/defense/">here</a>.
+        Presentation is available <a href="/phd-presentation">here</a>.
       </p>
       <p>
         <a id="address">Address:</a><br/>
