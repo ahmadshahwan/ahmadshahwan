@@ -1,0 +1,376 @@
+body, table {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #797979;
+}
+
+body {
+    background: #FFFFFF url(../images/bg01.jpg) repeat left top;
+}
+
+td {
+    vertical-align: text-top;
+}
+
+h1, h2 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+p, ul, ol {
+    margin-top: 0;
+    line-height: 160%;
+}
+
+ul, ol {
+}
+
+a {
+    color: #0098A4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    margin: 0 auto;
+}
+
+img.alignleft {
+    margin-right: 20px;
+}
+
+img.alignright {
+    margin-left: 20px;
+}
+
+a img {
+    border: none;
+}
+
+/* Wrapper */
+
+#wrapper {
+    background: url(../images/bg02.jpg) repeat-x left top;
+}
+
+/* Header */
+
+#header {
+    width: 920px;
+    height: 130px;
+    margin: 0 auto;
+    background: url(../images/bg03.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+    float: left;
+}
+
+#logo h1 {
+    margin: 0;
+    padding: 60px 0 0 30px;
+}
+
+#logo h2 {
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #797979;
+}
+
+#logo a:hover {
+    text-decoration: underline;
+    color: #0098A4;
+}
+
+#logo h2, #logo h2 a {
+    font-size: 13px;
+    color: #9F9F9F;
+}
+
+/* Menu */
+
+#menu {
+    float: right;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 78px 30px 0 0;
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    padding: 0 12px 0 12px;
+    background: url(../images/img02.gif) no-repeat left center;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    color: #0098A4;
+}
+
+#menu .first a {
+    background: none;
+}
+
+#menu .current {
+    padding: 0 12px 0 12px;
+    background: url(../images/img02.gif) no-repeat left center;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #0098A4;
+}
+
+/* Page */
+
+#page {
+    width: 920px;
+    margin: 0 auto;
+    background: url(../images/bg04.jpg) repeat-y left top;
+}
+
+#bgtop {
+    background: url(../images/bg05.jpg) no-repeat left top;
+}
+
+#bgbottom {
+    background: url(../images/bg06.jpg) no-repeat left bottom;
+}
+
+/* Content */
+
+#content {
+    float: left;
+    width: 650px;
+    padding: 50px 0 0 35px;
+}
+
+.post {
+}
+
+.post .title {
+    padding: 0 0 0 15px;
+    background: url(../images/img03.gif) no-repeat left top;
+}
+
+.post .title h2, .post .title h3 {
+    margin: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post .title h2 a, .post .title h3 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post .title h2 a:hover, .post .title h3 a:hover {
+    text-decoration: underline;
+}
+
+.post .title p {
+    margin: 0;
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #8D8D8D;
+}
+
+.post .title p a {
+    text-decoration: none;
+    color: #8D8D8D;
+}
+
+.post .entry {
+    padding: 15px 15px 25px 15px;
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: right;
+    width: 180px;
+    padding: 50px 10px 0 0;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+}
+
+#sidebar li ul {
+    margin: 15px 15px 25px 15px;
+}
+
+#sidebar li li {
+    font-size: 11px;
+}
+
+#sidebar h2 {
+    height: 27px;
+    margin: 0;
+    padding: 3px 0 0 15px;
+    background: url(../images/img04.gif) no-repeat left top;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#sidebar a {
+    color: #BCE8EC;
+}
+
+/* Footer */
+
+#footer {
+    width: 920px;
+    height: 100px;
+    margin: 0px auto;
+    background: url(../images/bg07.jpg) no-repeat left top;
+}
+
+#footer p {
+    margin: 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+#footer a {
+    color: #797979;
+}
+
+#bib .title {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #797979;
+    font-weight: bold;
+}
+
+#bib .in {
+    font-style: italic;
+}
+
+#bib .authors {
+    font-variant: small-caps;
+}
+
+#bib a {
+    color: #797979;
+}
+
+#bib h2 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.sc {
+    font-variant: small-caps;
+}
+
+a.external {
+    target-new: tab;
+}
+
+.timestamp {
+    float: right;
+    text-decoration: underline;
+}
+
+li .timestamp {
+    text-decoration: none;
+}
+
+tr.career-head .job-title {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table tr.career-head+tr td {
+    padding: 5pt 5pt 5pt 15pt;
+}
+
+#bib .title {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #797979;
+    background: url();
+    font-weight: bold;
+}
+
+#bib .in {
+    font-style: italic;
+}
+
+#bib .authors {
+    font-variant: small-caps;
+}
+
+#bib a {
+    color: #797979;
+}
+
+#bib h2 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+
