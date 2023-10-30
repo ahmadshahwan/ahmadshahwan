@@ -5,15 +5,17 @@
         </div>
         <div class="entry">
             <img src="/images/pigeons.jpg" alt="" width="112" height="131" class="alignleft" />
-            <p>Ahmad Shahwan is a <i>research and development engineer</i> at <a target="_blank" href="http://www.cohorte-technologies.com/">Cohorte Technologies</a>, a leading start-up in the domain of component-based computing and service-oriented software engineering.</p>
-            <p>He worked in the capacity of a <em>researcher and teaching assistant</em> at <a target="_blank" href="http://www.grenoble-inp.fr/">Grenoble INP</a>, conducting his research at <a target="_blank" href="http://www.g-scop.inpg.fr/">G-SCOP Laboratory</a> in the frame of the <a target="_blank" href="http://www.agence-nationale-recherche.fr/">ANR</a>-funded <a target="_blank" href="https://forge.imag.fr/projects/romma/">ROMMA</a> project. The work was done in collaboration with <a target="_blank" href="http://www.airbusgroup.com/">Airbus Group</a> and <a target="_blank" href="http://ljk.imag.fr/">LJK Laboratory</a>, among other industrial and academic partners.</p>
-            <p>While still actively involved in projects led by Cohorte Technologies, Ahmad has initiated a personal project; <a target="_blank" href="http://www.cookalchemy.com">CookAlchemy.com</a>. He is now working on the full-stack development of the web site alongside his research and development activities.</p>
+            <p>Ahmad Shahwan is software architect and full-stack developer who is willing to unfold opportunities, share expertise and exchange ideas.</p>
+            <p>Ahmad worked on the design, the development and the maintenance of robust digital solutions for clients such as
+              <a href="https://www.sncf.com" target="_blank">SNCF</a>, <a href="https://www.malt.fr" target="_blank">Malt</a>, <a href="https://www.rtone.fr" target="_blank">Rtone</a> and others</p>
+            <p>As a lecturer at <a href="https://www.univ-lyon1.fr" target="_blank">Claude Bernard University Lyon 1</a>, Ahmad is responsible for courses on Object-Oriented Modeling and Programming.</p>
+            <p>He earned his PH. D. in mathematics and coputer science from <a href="https://www.univ-grenoble-alpes.fr/" target="_blank">Grenoble Alpes University</a>.</p>
             <br clear="left"/>
           <h3>Interests and Activities</h3>
           <table>
             <tr>
               <td width="200">Sports</td>
-              <td>Swimming, running, cycling, skiing.</td>
+              <td>Swimming, running, rock climbing, skiing.</td>
             </tr>
             <tr>
               <td>Cultural</td>

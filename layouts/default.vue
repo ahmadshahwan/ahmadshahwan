@@ -3,7 +3,7 @@
         <div id="header">
             <div id="logo">
                 <h1>Ahmad <span class="sc">Shahwan</span> </h1>
-                <h2>Research and Development Engineer, <a href="http://www.cohorte-technologies.com/">Cohorte Technologies</a></h2>
+                <h2>Research and Development Engineer</h2>
             </div>
             <!-- end #logo -->
             <div id="menu">
@@ -12,17 +12,17 @@
                         <NuxtLink to="/">Home</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/research">Research</NuxtLink>
+                      <NuxtLink to="/career">Career</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/teaching">Teaching</NuxtLink>
+                      <NuxtLink to="/teaching">Teaching</NuxtLink>
 
                     </li>
                     <li>
-                        <NuxtLink to="/events">Events</NuxtLink>
+                        <NuxtLink to="/research">Research</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/career">Career</NuxtLink>
+                        <NuxtLink to="/events">Events</NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="/contacts">Contacts</NuxtLink>
