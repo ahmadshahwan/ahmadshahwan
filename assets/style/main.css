@@ -7,7 +7,7 @@ body, table {
 }
 
 body {
-    background: #FFFFFF url(../images/bg01.jpg) repeat left top;
+    background: #FFFFFF url(/images/bg01.jpg) repeat left top;
 }
 
 td {
@@ -79,7 +79,7 @@ a img {
 /* Wrapper */
 
 #wrapper {
-    background: url(../images/bg02.jpg) repeat-x left top;
+    background: url(/images/bg02.jpg) repeat-x left top;
 }
 
 /* Header */
@@ -88,7 +88,7 @@ a img {
     width: 920px;
     height: 130px;
     margin: 0 auto;
-    background: url(../images/bg03.jpg) no-repeat left top;
+    background: url(/images/bg03.jpg) no-repeat left top;
 }
 
 /* Logo */
@@ -140,7 +140,7 @@ a img {
 
 #menu a {
     padding: 0 12px 0 12px;
-    background: url(../images/img02.gif) no-repeat left center;
+    background: url(/images/img02.gif) no-repeat left center;
     text-decoration: none;
     text-transform: lowercase;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -159,7 +159,7 @@ a img {
 
 #menu .current {
     padding: 0 12px 0 12px;
-    background: url(../images/img02.gif) no-repeat left center;
+    background: url(/images/img02.gif) no-repeat left center;
     text-decoration: none;
     text-transform: lowercase;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -172,15 +172,15 @@ a img {
 #page {
     width: 920px;
     margin: 0 auto;
-    background: url(../images/bg04.jpg) repeat-y left top;
+    background: url(/images/bg04.jpg) repeat-y left top;
 }
 
 #bgtop {
-    background: url(../images/bg05.jpg) no-repeat left top;
+    background: url(/images/bg05.jpg) no-repeat left top;
 }
 
 #bgbottom {
-    background: url(../images/bg06.jpg) no-repeat left bottom;
+    background: url(/images/bg06.jpg) no-repeat left bottom;
 }
 
 /* Content */
@@ -196,7 +196,7 @@ a img {
 
 .post .title {
     padding: 0 0 0 15px;
-    background: url(../images/img03.gif) no-repeat left top;
+    background: url(/images/img03.gif) no-repeat left top;
 }
 
 .post .title h2, .post .title h3 {
@@ -259,7 +259,6 @@ a img {
     height: 27px;
     margin: 0;
     padding: 3px 0 0 15px;
-    background: url(../images/img04.gif) no-repeat left top;
     font-size: 24px;
     color: #FFFFFF;
 }
@@ -274,7 +273,7 @@ a img {
     width: 920px;
     height: 100px;
     margin: 0px auto;
-    background: url(../images/bg07.jpg) no-repeat left top;
+    background: url(/images/bg07.jpg) no-repeat left top;
 }
 
 #footer p {
