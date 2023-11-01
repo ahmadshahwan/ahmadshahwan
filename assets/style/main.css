@@ -31,8 +31,13 @@ h2 {
 h3 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 0;
+    padding: 0 0 14px;
     margin: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0 0 10px;
 }
 
 p, ul, ol {
