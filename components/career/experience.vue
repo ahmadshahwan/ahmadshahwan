@@ -1,26 +1,34 @@
 <template>
   <div class="experience">
-    <img class="thumbnail" :src="imageUrl" :alt="props.name"/>
+    <di class="icon">
+      <img class="thumbnail" :src="imageUrl" :alt="props.name"/>
+    </di>
     <div class="details">
       <div class="header">
         <span class="period">
           <slot name="period"></slot>
         </span>
-          <span class="job-title">
+        <span class="job-title">
           <slot name="job-title"></slot>
         </span>
-          <span class="client">
-          <slot name="partner"></slot>
+        <span class="client">
+        <slot name="partner"></slot>
         </span>
       </div>
       <div class="description">
-        <slot name="description"></slot>
+        <slot name="summary"></slot>
+        <div v-show="!moreHidden"><slot name="more"></slot></div>
+        <div class="more-less">
+          <NuxtLink @click="toggleMore()">{{ moreHidden ? "more" : "less"}}</NuxtLink>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+
+import {Ref} from "@vue/reactivity";
 
 type Props = {
   name: string;
@@ -29,6 +37,10 @@ type Props = {
 
 const props = defineProps<Props>();
 const imageUrl = props.image ?? '/images/career/digamma.png';
+
+const moreHidden: Ref<boolean> = ref(true);
+
+const toggleMore = () => moreHidden.value = !moreHidden.value;
 </script>
 
 <style scoped>
@@ -36,13 +48,21 @@ const imageUrl = props.image ?? '/images/career/digamma.png';
   display: flex;
   flex-direction: row;
 
-  .thumbnail {
-    height: 32px;
-    width: 32px;
-    padding: 1px 10px 1px 1px;
+  .icon {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+    .thumbnail {
+      height: 32px;
+      width: 32px;
+    }
   }
 
   .details {
+    width: 100%;
 
     .header {
       display: flex;
@@ -69,6 +89,10 @@ const imageUrl = props.image ?? '/images/career/digamma.png';
 
   .description {
     padding-bottom: .75em;
+
+    .more-less {
+      text-align: right;
+    }
   }
 }
 </style>
