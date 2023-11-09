@@ -5,6 +5,56 @@
     </div>
     <div class="entry">
       <h3>Professional Experience</h3>
+      <experience name="April Technologies" image="/images/career/april.png">
+        <template #period>Oct 2017, Dec 2018</template>
+        <template #job-title>Full-stack developer</template>
+        <template #partner>April Technologies</template>
+        <template #summary>
+          Scrum rituals paced the sprints. During a sprint, I participate in the organization (business workshop, requirements gathering, sprint planning, etc.), the design (technical and architectural choices) and the realization of tasks (front- and back-end development).
+        </template>
+        <template #more>
+          April Technologies is a software company that offers its services to other companies in the April group, specializing in the insurance business.
+
+          Throughout my mission at April, I successfully completed the following projects.
+          <dl>
+            <dt>Architecture and Technical Redesigns</dt>
+            <dd><ul>
+              <li>
+                DMS migration: this project aims to decommission Alfresco in favor of and in-house Document Management System.
+              </li>
+              <li>
+                LDAP migration: the authentication system has been centralized in compliance with General Data Protection Regulation.
+                I actively participated in the design, implementation and monitoring of the migration of all user accounts to the new authentication system.
+              </li>
+            </ul></dd>
+            <dt>Development</dt>
+            <dd><ul>
+              <li>
+                Revamp payment method: this involves handling access to the different cash-in and cash-out methods in a centralized manner.
+                The authorized payment methods vary depending on the connected user, the transaction in progress and the type of receipt being processed.
+              </li>
+              <li>
+                Mass correction of customer information: a mechanism for updating customer information based on a patch file was put in place to help agents fix data entry errors.
+              </li>
+              <li>
+                Revamp of the DMS tree: access to documents to be sent to the customer in the event of a claim is reorganized and simplified.
+              </li>
+              <li>
+                Contract re-intermediation: automate the task of migrating contracts and customers from one point of sale to another.
+              </li>
+            </ul></dd>
+            <dt>Data integration</dt>
+            <dd><ul>
+              <li>Opening of points of sale oversees: recovery of customer portfolios and contracts from files extracted from third-party computer systems.</li>
+              <li>Decommissioning of legacy Moovenet software: cross-referencing of data to import contracts from the computer system of a partner company.</li>
+            </ul></dd>
+            <dt>Team Life</dt>
+              <dd><ul>
+                <li>Welcoming and training new arrivals: having a substantial technological stack, Aprit Technologies offers a technical presentation to all its employees upon their arrival. I supported this presentation for two developers during my mission. I also participated in interviewing candidates for development positions.</li>
+              </ul></dd>
+          </dl>
+        </template>
+      </experience>
       <experience name="Rtone" image="/images/career/rtone.png">
         <template #period>May 2017, Sep 2017</template>
         <template #job-title>Full-stack developer</template>
@@ -41,7 +91,7 @@
         </template>
       </experience>
       <experience name="Cohorte Technologies" image="/images/career/cohorte.png">
-        <template #period>Aug 2015, Feb 2017</template>
+        <template #period>Aug 2015, May 2017</template>
         <template #job-title>Research and Development Engineer</template>
         <template #partner>Cohorte Technologies</template>
         <template #summary>Development of the company's flagship artefact, Cohorte Runtime, as well as taking into
