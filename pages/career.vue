@@ -36,6 +36,37 @@
           </ul>
         </template>
       </experience>
+      <experience name="Malt" image="/images/career/malt.png">
+        <template #period>Sep 2021, Jun 2022</template>
+        <template #job-title>Senior Software Engineer</template>
+        <template #partner>Malt</template>
+        <template #summary>
+          Software Engineer in Shared Service, a cross-platform software support team, then Team Leader in Growth Squad. Participating to the delivery of a variety of new projects and features in a highly collaborative and dynamic environment.
+        </template>
+        <template #more>
+          <dl>
+            <dt>Shared Services Squad</dt>
+            <p>Shared Services is the cross-platform technical team at Malt which manages software modules common to the entire platform, as well as some central functionalities such as messenger.</p>
+
+            <p>Selected projects carried out within Shared Services:</p>
+            <ul>
+              <li>Nuxt&nbsp;3 Migration. The decision was made to simplify and modernize the rich technological stack at Malt. This had to be achieved without any trade-off in terms of response time, user experience or SEO. The choice was made for a migration to Nuxt 3 framework. I actively participated in the Singapore task force to migrate the user-facing part of the platform; Malt's website.</li>
+              <li>Enabling search in messaging. Messenger data is indexed by Elasticsearch. I developed the keyword-based search functionality in messaging to benefit from this indexing.</li>
+              <li>Leveraging the data stack to execute batch jobs for analytical purposes. This project aimed at relieving Malt platform of certain computationally heavy tasks, such as updating freelance statistics, by delegating those tasks to the data stack which is more suited to this type of logic.</li>
+            </ul>
+
+            <dt>Growth Squad</dt>
+            <p>The team is responsible for an optimal user experience when signing up for Malt.</p>
+
+            <p>Tasks carried out within the Growth Squad:</p>
+            <ul>
+              <li>Participation in team leaders meetings. I regularly communicated the progress of current tasks to other teams. These meetings were also an opportunity to address blocking points and interdependencies.</li>
+              <li>Estimation and T-shirt sizing of the tasks to be carried out.</li>
+              <li>Design and development of planned tasks.</li>
+            </ul>
+          </dl>
+        </template>
+      </experience>
 
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
