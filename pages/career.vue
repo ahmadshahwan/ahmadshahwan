@@ -132,6 +132,21 @@
           </dl>
         </template>
       </experience>
+      <experience name="Sorbonne Paris Nord University" image="/images/career/uspn.png">
+        <template #period>Feb 2020, Aug 2020</template>
+        <template #job-title>Teaching Assistant</template>
+        <template #partner>Sorbonne Paris Nord University</template>
+        <template #summary>
+          Mentoring, supervision and evaluation of courses on Algorithms and data structure, HTML and Web Development.
+        </template>
+        <template #more>
+          <ul>
+            <li>Mentoring and evaluation of practical work in Algorithms and Data Structure.</li>
+            <li>Preparation of exercises, supervision and evaluation of practical work, corrections of exams in HTML and Web Programming.</li>
+          </ul>
+        </template>
+      </experience>
+
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
         <template #job-title>Full-stack developer</template>
