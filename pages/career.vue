@@ -67,6 +67,27 @@
           </dl>
         </template>
       </experience>
+      <experience name="Rtone" image="/images/career/rtone.png">
+        <template #period>Apr 2021, Jul 2021</template>
+        <template #job-title>Full-stack developer</template>
+        <template #partner>Rtone</template>
+        <template #summary>
+          Development of new features in Rtone’s flagship product: Rtower.
+        </template>
+        <template #more>
+          <p>Rtower is an IoT platform customizable to the needs of each business.</p>
+          <dl>
+            <dt>Back-end development</dt>
+            <dd>Improvement and customization of the platform's REST API.</dd>
+            <dd>Active Directory authentication support.</dd>
+            <dd>Java 11, Spring Boot, Spring Data, Spring MVC.</dd>
+            <dt>Front-end development</dt>
+            <dd>Internationalization of the web application.</dd>
+            <dd>Improvement and customization of different components according to the customer.</dd>
+            <dd>Angular 11, Typescript.</dd>
+          </dl>
+        </template>
+      </experience>
 
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
