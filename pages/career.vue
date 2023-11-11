@@ -5,12 +5,44 @@
     </div>
     <div class="entry">
       <h3>Professional Experience</h3>
+      <experience name="Polytech" image="/images/career/polytech.png">
+        <template #period>Sep 2022, present</template>
+        <template #job-title>Lecturer</template>
+        <template #partner>Polytech Lyon</template>
+        <template #summary>
+          Lecture courses, tutorial courses, practicums and projets. UML, Java and Design Patterns.
+        </template>
+        <template #more>
+          Lecturer of module Algorithms and Object-Oriented Programming. Teaching assistant of module Software Engineering.
+        </template>
+      </experience>
+      <experience name="SNCF" image="/images/career/sncf.png">
+        <template #period>Jul 2023, present</template>
+        <template #job-title>Trainer, Lead Developer</template>
+        <template #partner>SNCF</template>
+        <template #summary>
+          Professional full-stack trainer. Teaching Java, Spring, Angular, and TypeScript. Lead developer in design and development team.
+        </template>
+        <template #more>
+          <p>
+            SNCF is a French state-owned railway company. It operates the country's national rail services, including the TGV, France's high-speed rail network.
+          </p>
+          <p>Work responsibilities included:</p>
+          <ul>
+            <li>Authoring training materials and exercices on Java, Spring and Angular eco-systems.</li>
+            <li>Delivering training sessions.</li>
+            <li>Mentoring trainees and walking them through different exercices.</li>
+            <li>Design and development of software projects, including server-less architecture and REST APIs.</li>
+          </ul>
+        </template>
+      </experience>
+
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
         <template #job-title>Full-stack developer</template>
         <template #partner>April Technologies</template>
         <template #summary>
-          Scrum rituals paced the sprints. During a sprint, I participate in the organization (business workshop, requirements gathering, sprint planning, etc.), the design (technical and architectural choices) and the realization of tasks (front- and back-end development).
+          While Scrum rituals paced the sprints, I participate in the organization (business workshop, requirements gathering, sprint planning, etc.), the design (technical and architectural choices) and the realization of software solutions (front- and back-end development).
         </template>
         <template #more>
           April Technologies is a software company that offers its services to other companies in the April group, specializing in the insurance business.
