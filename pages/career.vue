@@ -99,7 +99,39 @@
           </dl>
         </template>
       </experience>
-
+      <experience name="Cleva" image="/images/career/cleva.png">
+        <template #period>Jan 2019, Feb 2021</template>
+        <template #job-title>Research and Development Engineer</template>
+        <template #partner>Inetum Cleva</template>
+        <template #summary>
+          Development of Cleva Extranet solutions, and Anglular multi-project application, inculding 4 different user interfaces and one commun library.
+          Design, development and documentation of Cleva REST API.
+        </template>
+        <template #more>
+          <p>During my mission at Inetum Cleva, I participated in the following tasks.</p>
+          <dl>
+            <dt>Cleva REST API</dt>
+            <dd>
+              <ul>
+                <li>Architecture and technical choices (OpenAPI, Mapstruct, etc.).</li>
+                <li>Design of APIs (definition of endpoints, content of requests and responses).</li>
+                <li>Development and implementation (REST resource, SOA improvement, business logic).</li>
+                <li>Non-regression testing and verification (unit tests, integration tests).</li>
+              </ul>
+            </dd>
+            <dt>Extranet solution</dt>
+            <dd>
+              <ul>
+                <li>Manage multi-project Angular solution management (4 user spaces and a common base).</li>
+                <li>Lead the internationalization project (applications available in French and English).</li>
+                <li>Development and production of components and services (Typescript, Angular 10).</li>
+                <li>Connection to Cleva REST services.</li>
+                <li>Connection to third-party services (payment and electronic signature).</li>
+              </ul>
+            </dd>
+          </dl>
+        </template>
+      </experience>
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
         <template #job-title>Full-stack developer</template>
