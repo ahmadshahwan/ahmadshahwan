@@ -146,6 +146,21 @@
           </ul>
         </template>
       </experience>
+      <experience name="XDEV" image="/images/career/xdev.png">
+        <template #period>Jan 2020, Feb 2020</template>
+        <template #job-title>Research and Development Engineer</template>
+        <template #partner>The blockchain XDEV</template>
+        <template #summary>
+          Web application for managing Secure Token Offerings. Angular 8, Material Design, Docker. Scrum.
+        </template>
+        <template #more>
+          <p>The application offered the following interfaces:</p>
+          <ul>
+            <li>Supplier interface for creating and modifying offers.</li>
+            <li>Investor interface for browsing and trading offers.</li>
+          </ul>
+        </template>
+      </experience>
 
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
