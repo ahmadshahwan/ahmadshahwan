@@ -46,24 +46,28 @@
         <template #more>
           <dl>
             <dt>Shared Services Squad</dt>
-            <p>Shared Services is the cross-platform technical team at Malt which manages software modules common to the entire platform, as well as some central functionalities such as messenger.</p>
+            <dd>
+              <p>Shared Services is the cross-platform technical team at Malt which manages software modules common to the entire platform, as well as some central functionalities such as messenger.</p>
 
-            <p>Selected projects carried out within Shared Services:</p>
-            <ul>
-              <li>Nuxt&nbsp;3 Migration. The decision was made to simplify and modernize the rich technological stack at Malt. This had to be achieved without any trade-off in terms of response time, user experience or SEO. The choice was made for a migration to Nuxt 3 framework. I actively participated in the Singapore task force to migrate the user-facing part of the platform; Malt's website.</li>
-              <li>Enabling search in messaging. Messenger data is indexed by Elasticsearch. I developed the keyword-based search functionality in messaging to benefit from this indexing.</li>
-              <li>Leveraging the data stack to execute batch jobs for analytical purposes. This project aimed at relieving Malt platform of certain computationally heavy tasks, such as updating freelance statistics, by delegating those tasks to the data stack which is more suited to this type of logic.</li>
-            </ul>
+              <p>Selected projects carried out within Shared Services:</p>
+              <ul>
+                <li>Nuxt&nbsp;3 Migration. The decision was made to simplify and modernize the rich technological stack at Malt. This had to be achieved without any trade-off in terms of response time, user experience or SEO. The choice was made for a migration to Nuxt 3 framework. I actively participated in the Singapore task force to migrate the user-facing part of the platform; Malt's website.</li>
+                <li>Enabling search in messaging. Messenger data is indexed by Elasticsearch. I developed the keyword-based search functionality in messaging to benefit from this indexing.</li>
+                <li>Leveraging the data stack to execute batch jobs for analytical purposes. This project aimed at relieving Malt platform of certain computationally heavy tasks, such as updating freelance statistics, by delegating those tasks to the data stack which is more suited to this type of logic.</li>
+              </ul>
+            </dd>
 
             <dt>Growth Squad</dt>
-            <p>The team is responsible for an optimal user experience when signing up for Malt.</p>
+            <dd>
+              <p>The team is responsible for an optimal user experience when signing up for Malt.</p>
 
-            <p>Tasks carried out within the Growth Squad:</p>
-            <ul>
-              <li>Participation in team leaders meetings. I regularly communicated the progress of current tasks to other teams. These meetings were also an opportunity to address blocking points and interdependencies.</li>
-              <li>Estimation and T-shirt sizing of the tasks to be carried out.</li>
-              <li>Design and development of planned tasks.</li>
-            </ul>
+              <p>Tasks carried out within the Growth Squad:</p>
+              <ul>
+                <li>Participation in team leaders meetings. I regularly communicated the progress of current tasks to other teams. These meetings were also an opportunity to address blocking points and interdependencies.</li>
+                <li>Estimation and T-shirt sizing of the tasks to be carried out.</li>
+                <li>Design and development of planned tasks.</li>
+              </ul>
+            </dd>
           </dl>
         </template>
       </experience>
@@ -72,19 +76,26 @@
         <template #job-title>Full-stack developer</template>
         <template #partner>Rtone</template>
         <template #summary>
-          Development of new features in Rtone’s flagship product: Rtower.
+          Development of new features in Rtone’s flagship product: Rtower, an IoT platform customizable to the needs of each business.
         </template>
         <template #more>
-          <p>Rtower is an IoT platform customizable to the needs of each business.</p>
           <dl>
             <dt>Back-end development</dt>
-            <dd>Improvement and customization of the platform's REST API.</dd>
-            <dd>Active Directory authentication support.</dd>
-            <dd>Java 11, Spring Boot, Spring Data, Spring MVC.</dd>
+            <dd>
+              <ul>
+                <li>Improvement and customization of the platform's REST API.</li>
+                <li>Active Directory authentication support.</li>
+                <li>Java 11, Spring Boot, Spring Data, Spring MVC.</li>
+              </ul>
+            </dd>
             <dt>Front-end development</dt>
-            <dd>Internationalization of the web application.</dd>
-            <dd>Improvement and customization of different components according to the customer.</dd>
-            <dd>Angular 11, Typescript.</dd>
+            <dd>
+              <ul>
+                <li>Internationalization of the web application.</li>
+                <li>Improvement and customization of different components according to the customer.</li>
+                <li>Angular 11, Typescript.</li>
+              </ul>
+            </dd>
           </dl>
         </template>
       </experience>
