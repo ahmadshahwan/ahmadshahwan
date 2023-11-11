@@ -42,31 +42,7 @@
 
           </div>
           <!-- end #content -->
-          <div id="sidebar">
-            <ul>
-              <li>
-                <h2>Links</h2>
-                <ul>
-                  <li><img width="16" height="16" class="alignleft" src="/images/inpg.png" alt="INP-G"/>
-                    <a target="_blank" href="http://www.grenoble-inp.fr/">Grenoble INP</a></li>
-                  <li><img width="16" height="16" class="alignleft" src="/images/g-scop.png" alt="G-SCOP"/>
-                    <a target="_blank" href="http://www.g-scop.inpg.fr/">Laboratoire G-SCOP</a></li>
-                  <li><img width="16" height="16" class="alignleft" src="/images/inria.png" alt="INRIA"/>
-                    <a target="_blank" href="http://www.inria.fr/centre-de-recherche-inria/grenoble-rhone-alpes">INRIA
-                      Rhone-Alpes</a></li>
-                  <li><img width="16" height="16" class="alignleft" src="/images/ujf.png" alt="UJF"/>
-                    <a target="_blank" href="http://www.ujf-grenoble.fr/">UJF - Grenoble I</a></li>
-                  <li><img width="16" height="16" class="alignleft" src="/images/mosig.png" alt="MoSIG"/>
-                    <a target="_blank" href="http://mosig.imag.fr/">MoSIG Program</a></li>
-                  <li><img width="16" height="16" class="alignleft" src="/images/damasuniv.png"
-                           alt="Damascus University"/>
-                    <a target="_blank" href="http://damasuniv.edu.sy/english/">Damascus University</a></li>
-
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <!-- end #sidebar -->
+          <sidebar></sidebar>
           <div style="clear: both;">&nbsp;</div>
         </div>
       </div>
