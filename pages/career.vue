@@ -161,6 +161,25 @@
           </ul>
         </template>
       </experience>
+      <experience name="Arkesys" image="/images/career/arkesys.png">
+        <template #period>Sep 2018, Oct 2018</template>
+        <template #job-title>Professional Trainer</template>
+        <template #partner>Arkesys Group</template>
+        <template #summary>
+          Professional training on Java and Web development. The training was organized around code workshops where participants were walked through creating educational software applications.
+        </template>
+        <template #more>
+          <p>At the end of the training, participants acquired the following skills:</p>
+          <ul>
+            <li>A mastery of the basic notions of Java.</li>
+            <li>Advanced object modeling.</li>
+            <li>Design of a user interface using JavaFX.</li>
+            <li>Client-server architecture.</li>
+            <li>Web development with Servlet and JSP.</li>
+            <li>MVC architecture.</li>
+          </ul>
+        </template>
+      </experience>
 
       <experience name="April Technologies" image="/images/career/april.png">
         <template #period>Oct 2017, Dec 2018</template>
