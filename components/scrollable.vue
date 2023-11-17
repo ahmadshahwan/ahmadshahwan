@@ -1,0 +1,32 @@
+<template>
+  <div class="scrollable">
+    <slot></slot>
+  </div>
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+<style scoped>
+.scrollable {
+  max-height: 350px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+  padding-right: 4px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b0b0b0;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+</style>

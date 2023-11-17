@@ -43,7 +43,7 @@ const moreHidden: Ref<boolean> = ref(true);
 const toggleMore = () => moreHidden.value = !moreHidden.value;
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .experience {
   display: flex;
   flex-direction: row;
