@@ -489,24 +489,24 @@
 
       <h3>Academic Profile</h3>
       <Scrollable>
-        <Degree>
+        <Degree image="/images/education/uga.png" alt="Grenoble Alpes University">
           <template #academic-title>Ph.D. in Computer Science and Applied Mathematics</template>
-          <template #institution>Université de Grenoble</template>
+          <template #institution>Grenoble Alpes University</template>
           <template #year>2014</template>
         </Degree>
-        <Degree>
+        <Degree image="/images/education/uga.png" alt="Grenoble Alpes University">>
           <template #academic-title>Master of Science in Graphics Vision, and Robotics</template>
-          <template #institution>Université Joseph Fourier, Grenoble</template>
+          <template #institution>Grenoble Alpes University</template>
           <template #year>2010</template>
         </Degree>
-        <Degree>
+        <Degree image="/images/education/aabfs.png" alt="Arab Academy">>
           <template #academic-title>Master's Degree in Computer Information Systems</template>
-          <template #institution>Arab Academy for Banking and Financial Sciences, Damascus</template>
+          <template #institution>Arab Academy for Management, Banking and Financial Sciences</template>
           <template #year>2009</template>
         </Degree>
-        <Degree>
+        <Degree image="/images/education/damascus-univ.png" alt="Damascus University">>
           <template #academic-title>Bachelor of Engineering in Information Technology</template>
-          <template #institution>Damascus University, Damascus</template>
+          <template #institution>Damascus University</template>
           <template #year>2005</template>
         </Degree>
       </Scrollable>
