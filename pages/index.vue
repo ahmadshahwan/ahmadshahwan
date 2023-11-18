@@ -13,16 +13,16 @@
             <p>His thesis on geometrical analysis of digital mock-ups and function knowledge representation of 3D models earned him a PhD degree in Mathematics and Computer Science from <a href="https://www.univ-grenoble-alpes.fr/" target="_blank">Grenoble Alpes University</a>.</p>
             <br clear="left"/>
           <h3>Interests and Activities</h3>
-          <table>
-            <tr>
-              <td width="200">Sports</td>
-              <td>Swimming, running, rock climbing, skiing.</td>
-            </tr>
-            <tr>
-              <td>Cultural</td>
-              <td>Painting and drawing.</td>
-            </tr>
-          </table>
+          <div class="interests">
+            <div class="interest-details">
+              <div class="interest-title">Sports</div>
+              <div>Swimming, running, rock climbing, skiing.</div>
+            </div>
+            <div class="interest-details">
+              <div class="interest-title">Cultural</div>
+              <div>Painting and drawing.</div>
+            </div>
+          </div>
         </div>
     </div>
 </template>
@@ -31,6 +31,22 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.interests {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
+  .interest-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+
+    .interest-title {
+      width: 200px;
+      font-weight: bold;
+    }
+  }
+}
 </style>
