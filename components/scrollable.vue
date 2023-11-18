@@ -1,10 +1,20 @@
 <template>
-  <div class="scrollable">
+  <div class="scrollable" :style="scrollableStyle">
     <slot></slot>
   </div>
 </template>
 
 <script setup lang="ts">
+
+type Props = {
+  maxHeight?: string;
+}
+
+const props = defineProps<Props>();
+
+const scrollableStyle = {
+  maxHeight: props.maxHeight,
+};
 
 </script>
 

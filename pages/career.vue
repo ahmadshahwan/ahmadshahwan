@@ -5,7 +5,7 @@
     </div>
     <div class="entry">
       <h3>Professional Experience</h3>
-      <Scrollable>
+      <Scrollable max-height="210px">
         <Experience name="Polytech" image="/images/career/polytech.png">
           <template #period>Sep 2022, present</template>
           <template #job-title>Lecturer</template>
@@ -488,7 +488,7 @@
       </Scrollable>
 
       <h3>Academic Profile</h3>
-      <Scrollable>
+      <Scrollable max-height="75px">
         <Degree image="/images/education/uga.png" alt="Grenoble Alpes University">
           <template #academic-title>Ph.D. in Computer Science and Applied Mathematics</template>
           <template #institution>Grenoble Alpes University</template>
