@@ -1,22 +1,26 @@
 <template>
   <div id="footer">
-    <p>
+    <div class="socials">
       <a target="_blank" href="http://www.linkedin.com/profile/view?id=57163147">
-        <img alt="" width="16" height="16" src="/images/linkedin.png"/>
+        <img alt="LinkedIn" src="/images/linkedin.png"/>
+      </a>
+      &nbsp;
+      <a target="_blank" href="https://github.com/ahmadshahwan">
+        <img alt="Github" src="/images/github.png"/>
       </a>
       &nbsp;
       <a target="_blank" href="https://www.researchgate.net/profile/Ahmad_Shahwan">
-        <img alt="" width="16" height="16" src="/images/researchgate.png"/>
+        <img alt="Research Gate" src="/images/researchgate.png"/>
       </a>
       &nbsp;
       <a target="_blank" href="http://twitter.com/#!/ahmadshahwan">
-        <img alt="" width="16" height="16" src="/images/twitter.png"/>
+        <img alt="X" src="/images/x.png"/>
       </a>
       &nbsp;
       <a target="_blank" href="http://www.facebook.com/ahmad.shahwan">
-        <img alt="" width="16" height="16" src="/images/facebook.ico"/>
+        <img alt="Facebook" src="/images/facebook.ico"/>
       </a>
-    </p>
+    </div>
     <p>
       17 rue Antoine Lumière,
       69008 Lyon,
@@ -30,24 +34,36 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 #footer {
-  width: 920px;
+  display: flex;
+  flex-direction: column;
+  width:  920px;
   height: 100px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 30px 0 0 0;
   background: url(/images/bg07.jpg) no-repeat left top;
-}
 
-#footer p {
-  margin: 0;
-  text-align: center;
-  font-size: 11px;
-}
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    margin: 0 auto 10px auto;
+  }
 
-#footer a {
-  color: #797979;
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  img {
+    height: 16px;
+    width: 16px;
+  }
 }
 
 </style>
