@@ -1,23 +1,23 @@
 <template>
   <div id="footer">
     <div class="socials">
-      <a target="_blank" href="http://www.linkedin.com/profile/view?id=57163147">
+      <a target="_blank" href="https://www.linkedin.com/in/ahmadshahwan/">
         <img alt="LinkedIn" src="/images/linkedin.png"/>
       </a>
-      &nbsp;
+      
       <a target="_blank" href="https://github.com/ahmadshahwan">
         <img alt="Github" src="/images/github.png"/>
       </a>
-      &nbsp;
+      
       <a target="_blank" href="https://www.researchgate.net/profile/Ahmad_Shahwan">
         <img alt="Research Gate" src="/images/researchgate.png"/>
       </a>
-      &nbsp;
-      <a target="_blank" href="http://twitter.com/#!/ahmadshahwan">
+      
+      <a target="_blank" href="https://twitter.com/ahmadshahwan">
         <img alt="X" src="/images/x.png"/>
       </a>
-      &nbsp;
-      <a target="_blank" href="http://www.facebook.com/ahmad.shahwan">
+      
+      <a target="_blank" href="https://www.facebook.com/ahmad.shahwan">
         <img alt="Facebook" src="/images/facebook.ico"/>
       </a>
     </div>
