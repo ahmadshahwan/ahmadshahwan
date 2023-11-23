@@ -31,9 +31,9 @@
     </div>
     <div class="entry">
       <span class="timestamp">Oct 12, 2012</span>
-      <p>
       <h3>Presentation before IMAGINE team</h3>
-      At INRIA Rhône-Alpes, Montbonnot, France. Presentation is available <a href="presentations/121018_imagine.pdf">here</a>.
+      <p>
+        At INRIA Rhône-Alpes, Montbonnot, France. Presentation is available <a href="presentations/121018_imagine.pdf">here</a>.
       </p>
     </div>
     <div class="entry">
