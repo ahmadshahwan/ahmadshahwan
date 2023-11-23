@@ -88,5 +88,60 @@
 
 </script>
 <style scoped>
+#bib .title {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #797979;
+  background-image: none;
+  font-weight: bold;
+}
 
+#bib .in {
+  font-style: italic;
+}
+
+#bib .authors {
+  font-variant: small-caps;
+}
+
+#bib a {
+  color: #797979;
+}
+
+#bib h2 {
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#bib .title {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #797979;
+  font-weight: bold;
+}
+
+#bib .in {
+  font-style: italic;
+}
+
+#bib .authors {
+  font-variant: small-caps;
+}
+
+#bib a {
+  color: #797979;
+}
+
+#bib h2 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 </style>
