@@ -1,8 +1,8 @@
 <template>
   <div class="experience">
-    <di class="icon">
+    <div class="icon">
       <img class="thumbnail" :src="imageUrl" :alt="props.name"/>
-    </di>
+    </div>
     <div class="details">
       <div class="header">
         <span class="period">
